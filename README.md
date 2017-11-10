@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/y-luis/producer-consumer.svg?branch=master)](https://travis-ci.org/y-luis/producer-consumer)
+
 # producer-consumer
 
 Producer-Consumer system using RabbitMQ.
