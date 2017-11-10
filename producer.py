@@ -42,10 +42,6 @@ class Producer:
 
         return x - delta
 
-    def __del__(self):
-        logging.info('Closing connection...')
-        self.connection.close()
-
     def connect(self, host):
         """
         Connect to a RabbitMQ service.
